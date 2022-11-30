@@ -162,13 +162,13 @@ self.addEventListener('push', e => {
         actions: [
             {
                 action: 'thor-action',
-                title: 'Thor',
-                icon: 'img/avatar/thor.jpg'
+                title: 'Jeronimo',
+                icon: 'img/avatar/jeronimo.jpg'
             },
             {
                 action: 'ironman-action',
-                title: 'Ironman',
-                icon: 'img/avatar/ironman.jpg'
+                title: 'Lunita',
+                icon: 'img/avatar/Lunita.jpg'
             }
         ]
     };
