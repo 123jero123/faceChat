@@ -1,15 +1,15 @@
 
 var url = window.location.href;
-var swLocation = 'sw.js';
+var swLocation = '/sw.js';
 
 var swReg;
 
 if ( navigator.serviceWorker ) {
 
 
-    if ( url.includes('localhost') ) {
-        swLocation = '/sw.js';
-    }
+  /*  if ( url.includes('localhost') ) {
+      //  swLocation = '/sw.js';
+    }*/
 
 
     window.addEventListener('load', function() {
